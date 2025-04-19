@@ -1,8 +1,9 @@
+// src/components/ui/button.js
 export function Button({ children, variant = "default", ...props }) {
-    const base = "px-4 py-2 rounded-md text-sm font-medium transition";
+    const base = "px-6 py-3 rounded-lg text-sm font-medium transition-all duration-200";
     const styles = {
-      default: "bg-blue-600 text-white hover:bg-blue-700",
-      ghost: "bg-transparent border border-gray-300 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-600 dark:hover:bg-gray-800",
+      default: "bg-blue-600 text-white hover:bg-blue-700 hover:scale-105",
+      ghost: "bg-transparent border-2 border-gray-300 text-gray-700 hover:bg-gray-100 hover:scale-105",
     };
   
     return (

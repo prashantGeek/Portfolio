@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <header className="bg-blue-600 text-white py-4 shadow-md">
           <nav className="max-w-6xl mx-auto flex justify-between items-center px-4">
-            <h1 className="text-3xl font-bold">[Your Name]</h1>
+            <h1 className="text-3xl font-bold">PRASHANT</h1>
             <div className="flex gap-6">
               <Link href="/" className="text-white hover:text-gray-300">
                 Home
